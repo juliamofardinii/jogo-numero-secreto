@@ -1,5 +1,5 @@
 ## Jogo Número Secreto
-Este jogo consiste em advinhar qual é o número secreto, feito com reconhecimento de voz, o usuário fala a sua adivinhação e o jogo fornece dicas.
+Este jogo consiste em advinhar qual é o número secreto, feito com reconhecimento de voz, o usuário fala o número e o jogo fornece dicas.
 
 ## Técnicas e tecnologias utilizadas
 
