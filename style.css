@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+:root{
+    --font-faily: "Kanit", sans-serif;
+    --bg-color: #ABC4AA;
+    --primary-color:#675D50;
+    --second-color: #A9907E;
+
+}
+
+body{
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    font-family: var(--font-faily);
+}
+
+h1{
+    font-size: 5em;
+}
+
+h2{
+    font-size: 4em;
+}
+
+h3{
+    font-size: 2em;
+    margin-top: 50px;
+}
+
+.mensagem{
+    font-size: 1.5em;
+    margin-top: 40px;
+}
+
+.box{
+    border: 2px solid var(--primary-color);
+    border-radius: 12px;
+    display: inline-block;
+    font-size: 4em;
+    padding: 10px;
+    margin: 30px;
+
+}
+
+input[type="text"] {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid var(--primary-color);
+}
+
+button {
+    padding: 10px 20px;
+    background-color: var(--second-color);
+    color: var(--primary-color);
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--second-color);
+}
+
+#dica {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.btn-jogar{
+    padding: 8px;
+    border: 0;
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    margin-top: 20px;
+    color: black;
+}
